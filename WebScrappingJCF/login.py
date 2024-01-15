@@ -22,8 +22,8 @@ password = driver.find_element("id","passe")
 login_btn = driver.find_element("id","btn-ing")
 
 # enter credentials
-username.send_keys("josegbluis@hotmail.com")
-password.send_keys("U47068156o")
+username.send_keys("example@hotmail.com")
+password.send_keys("*******")
 
 # wait for captcha to appear
 wait = WebDriverWait(driver, 10)
